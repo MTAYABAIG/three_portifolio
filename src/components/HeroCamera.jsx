@@ -10,7 +10,7 @@ function HeroCamera({ children, isMobile }) {
       easing.dampE(groupRef.current.rotation, [state.pointer.y/3, -state.pointer.x/5, 0], 0.25, delta);
     }
   });
-  return <group ref={groupRef}>{children}</group>;
+  return <group ref={groupRef} scale={isMobile ? 1 : 1.3} >{children}</group>;
 }
 
 export default HeroCamera;

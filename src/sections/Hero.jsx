@@ -11,6 +11,7 @@ import ReactLogo from "../components/ReactLogo";
 import Cube from "../components/Cube";
 import Rings from "../components/Rings";
 import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 function Hero() {
   const isSmall = useMediaQuery({ maxWidth: 480 });
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -51,6 +52,11 @@ function Hero() {
             <directionalLight position={[10, 10, 10]} intensity={1.5} />
           </Suspense>
         </Canvas>
+      </div>
+      <div className="absolute right-0 left-0 bottom-7 w-full z-50 c-space" >
+      <a href="#about" className="w-fit" >
+        <Button name="let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96 captilize" />
+      </a>
       </div>
     </section>
   );
