@@ -100,7 +100,7 @@ export const myProjects = [
     subdesc:
       "This project demonstrates a visually appealing and fully responsive webpage dedicated to showcasing the positive impact of plants on the environment. Built with clean HTML and CSS, it features a sleek design optimized for all devices. ",
     href: "https://mtayabaig.github.io/cactus/",
-    texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/plant",
     logo: "https://www.kindpng.com/picc/m/551-5512005_lab-plant-logo-hd-png-download.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -132,11 +132,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
+    title: "ECOME - The Ultimate palce for tech",
     desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
     subdesc:
       "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    href: "https://ecom-blvdwntfa-tayyabs-projects-184be20e.vercel.app/",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -171,11 +171,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
+    title: "BANKAPP",
     desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    href: "https://bankapp-eq8495yzw-tayyabs-projects-184be20e.vercel.app/auth/login",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {

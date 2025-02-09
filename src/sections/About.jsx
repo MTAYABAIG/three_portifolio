@@ -18,24 +18,26 @@ function About() {
     <section className="c-space my-20" id="about">
       <div className="grid grid-cols-1 gap-5 h-full md:grid-cols-2 xl:grid-rows-6 xl:grid-cols-3">
         <div className="col-span-1 xl:row-span-2">
-          <div className="grid-container">
-            <img
-              src="/assets/grid1.png"
-              alt="grid-1"
-              className="w-full sm:h-[276px] h-fit object-contain"
-            />
-            <div>
-              <p className="grid-headtext">Hi, I'm Muhammad Tayyab</p>
-              <p className="grid-subtext">
-                with 1.5 years of experience , i have honed my skills in front
-                end UI development with focus in responsiveness , adaptivity and
-                animation
-              </p>
+          <div className="" >
+            <div className="grid-container">
+              <img
+                src="/assets/grid1.png"
+                alt="grid-1"
+                className="w-full sm:h-[276px] h-fit object-contain"
+              />
+              <div>
+                <p className="grid-headtext">Hi, I'm Muhammad Tayyab</p>
+                <p className="grid-subtext">
+                  with 1.5 years of experience , i have honed my skills in front
+                  end UI development with focus in responsiveness , adaptivity and
+                  animation
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div className="col-span-1 xl:row-span-2">
-          <div className="grid-container">
+          <div className="grid-container ">
             <img
               src="/assets/grid2.png"
               alt="grid-2"
@@ -51,7 +53,7 @@ function About() {
           </div>
         </div>
         <div className="col-span-1 xl:row-span-3">
-          <div className="grid-container">
+          <div className="grid-container ">
             <div className="rounded-3xl w-full h-fit sm:h-[326px] flex justify-center items-center">
               <Globe
                 width={326}
@@ -83,7 +85,7 @@ function About() {
           </div>
         </div>
         <div className="xl:col-span-2 xl:row-span-3">
-          <div className="grid-container">
+          <div className="grid-container ">
             <img
               src="/assets/grid3.png"
               alt="grid-2"
